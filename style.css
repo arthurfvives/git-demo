@@ -1,0 +1,26 @@
+body {
+  background-color: beige;
+}
+
+ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 20%;
+  margin: 0 auto;
+  background-color: aquamarine;
+  padding: 14px;
+  border-radius: 10px;
+}
+
+ul a,
+li {
+  text-decoration: none;
+  color: black;
+  list-style-type: none;
+  font-size: large;
+}
+
+ul li:hover {
+  background-color: aqua;
+}
